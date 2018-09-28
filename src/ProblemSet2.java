@@ -59,7 +59,7 @@ public class ProblemSet2 {
 		//int busFinal = lessBus;
 		System.out.print("There will be " + lessBus + " full busses with 48 people including the bus driver");
 		if (bus > lessBus) {
-			System.out.print(" and 1 bus with " + ((teachers + students) % 47 + 1) + " people including the bus driver");
+			System.out.println(" and 1 bus with " + ((teachers + students) % 47 + 1) + " people including the bus driver");
 		}
 		
 		
