@@ -7,6 +7,7 @@
  * and print certain required values to the console. All of this is explained
  * (and demonstrated, when appropriate) in the README file.
  */
+
 import java.util.Scanner;
 import java.text.DecimalFormat;
 public class ProblemSet2 {
@@ -87,11 +88,11 @@ public class ProblemSet2 {
 	
 	public void initials() {
 		System.out.print("Please enter your first name:");
-		String first = input.nextLine();
+		char first = input.nextLine().charAt(0);
 		System.out.print("Please enter your middle name: ");
-		String middle = input.nextLine();
+		char middle = input.nextLine().charAt(0);
 		System.out.print("Please enter your last name: ");
-		String last = input.nextLine();
+		char last = input.nextLine().charAt(0);
 		System.out.print("Your initials are " + first + middle + last);
 	}
 }
